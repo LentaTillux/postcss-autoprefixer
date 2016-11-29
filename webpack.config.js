@@ -20,15 +20,12 @@ module.exports = {
         loaders: [
             {
                 test: /\.css$/,
-                // loader: 'style-loader!css-loader!postcss-loader'
                 loader: extractCSS.extract(['css', 'postcss'])
             }, {
                 test: /\.less$/,
-                // loader: 'style-loader!css-loader!postcss-loader!less-loader'
                 loader: extractLESS.extract(['css', 'less', 'postcss'])
             }, {
                 test: /\.scss$/,
-                // loader: 'style-loader!css-loader!postcss-loader!sass-loader'
                 loader: extractSCSS.extract(['css', 'sass', 'postcss'])
             }
 
