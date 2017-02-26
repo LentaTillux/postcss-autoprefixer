@@ -11,7 +11,7 @@ module.exports = {
         index: './src/index.js'
     },
     output: {
-        path: './assets/',
+        path: './dist/',
         plublicPath: './static/',
         filename: '[name].js',
         chunkFilename: 'chunk[id].js'

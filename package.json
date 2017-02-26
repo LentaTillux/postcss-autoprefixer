@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run build",
+    "build": "webpack --config ./webpack.config.js --progress --profile --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

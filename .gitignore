@@ -1,4 +1,15 @@
+# Ignore bash scripts
+sh-scripts
+
+# Ignore other files
+IGNORE
+
+# Ignore installed node modules
 node_modules
 
-assets
-.idea
+# Ignore final files
+dist
+build
+
+# Ignore logs
+npm-debug.log
